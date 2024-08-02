@@ -1,0 +1,29 @@
+# Node modules
+node_modules
+
+# Build output
+dist
+build
+
+# Docker files
+Dockerfile
+docker-compose.yml
+
+# Git files
+.git
+.gitignore
+
+# Environment files
+.env
+.env.local
+
+# Logs
+*.log
+
+# Temporary files
+tmp
+temp
+
+# Other IDE files
+.vscode
+.idea
