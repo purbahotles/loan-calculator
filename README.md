@@ -2,6 +2,13 @@
 
 ## Project setup
 ```
+git clone https://github.com/purbahotles/loan-calculator.git
+```
+```
+cd loan-calculator
+```
+
+```
 npm install
 ```
 
@@ -49,6 +56,28 @@ docker-compose down
 
 ```
 docker-compose logs
+```
+
+
+
+# Versioning Tools Used
+```
+node version v20.11.0
+vue --version @vue/cli 5.0.8
+npm --version 10.8.1
+npm list vue
+loan-calculator@0.1.0
+├─┬ @vue/cli-plugin-babel@5.0.8
+│ └─┬ @vue/babel-preset-app@5.0.8
+│   ├─┬ @vue/babel-preset-jsx@1.4.0
+│   │ └── vue@3.4.35 deduped
+│   └── vue@3.4.35 deduped
+└─┬ vue@3.4.35
+  └─┬ @vue/server-renderer@3.4.35
+    └── vue@3.4.35 deduped
+
+Docker version 26.0.2
+docker-compose version 1.29.2
 ```
 
 ### Access the running application
