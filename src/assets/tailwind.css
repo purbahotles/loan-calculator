@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.error-text {
+  @apply text-left text-red-500 text-sm mt-1 block;
+}
+
+.label-input {
+  @apply font-bold text-left;
+}
+
+.input {
+  @apply border p-2 w-full;
+}
